@@ -1,0 +1,63 @@
+:root{
+    --p-color: #333;
+    --f-size: 18px;
+    --b-radius: 10px;
+  }
+  *{
+    font-family: "Poppins", sans-serif;
+  }
+  form{
+    width: 400px;
+    margin: 5% auto;
+    border: 1px solid #ddd;
+    border-radius: var(--b-radius);
+    padding: 10px;
+    box-shadow: 5px 10px 25px rgba(5, 0, 0, 0.2);
+  }
+  .success,
+  .error{
+    padding: 10px;
+    font-size: 18px;
+  }
+  .success{
+    color: #6fd649;
+    text-align: center;
+  }
+  .error{
+    color: red;
+    text-align: center;
+  }
+  .form{
+    padding: 0px 80px;
+  }
+  h2{
+    color: #555ddd;
+    text-align: center;
+    font-size: 30px;
+
+  }
+  label{
+    font-size: var(--f-size);
+  }
+  input[type='text']{
+    padding: 5px;
+    width: 96%;
+    border-radius: 5px;
+    border: 1px solid var(--p-color);
+    outline: none;
+    margin: 10px 0px;
+    font-size: var(--f-size);
+  }
+  input[type='submit']{
+    width: 100%;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    background: #555ddd;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: var(--f-size);
+  }
+  /*----*/
